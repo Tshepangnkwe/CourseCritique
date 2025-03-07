@@ -17,7 +17,7 @@ CourseCritique is a modern course feedback and rating system designed to help ed
 ## Tech Stack 💻
 
 - **Backend**: FastAPI (Python)
-- **Frontend**: React
+- **Frontend**: React (TypeScript)
 - **Database**: Supabase (PostgreSQL)
 - **Authentication**: Supabase
 - **Styling**: Tailwind CSS + Daisy UI

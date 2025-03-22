@@ -1,6 +1,6 @@
 # CourseCritique 🚀
 
-CourseCritique is a modern course feedback and rating system designed to help educators and learners share insights and improve course quality. Built with **FastAPI** (Python) for the backend and **React** for the frontend, it provides a seamless experience for collecting reviews, managing ratings, and exploring courses.
+CourseCritique is a modern course feedback and rating system designed to help educators and learners share insights and improve course quality. Built with **FastAPI** (Python) for the backend and **React** (TypeScript) for the frontend, it provides a seamless experience for collecting reviews, managing ratings, and exploring courses.
 
 ---
 
@@ -8,7 +8,7 @@ CourseCritique is a modern course feedback and rating system designed to help ed
 
 - **Course Listing**: Browse and explore available courses.
 - **Reviews & Ratings**: Submit and view reviews with star ratings.
-- **User Authentication**: Secure login and registration using JWT.
+- **User Authentication**: Secure login and registration using **Clerk**.
 - **Admin Panel**: Manage courses and reviews.
 - **Responsive Design**: Built with React for a smooth user experience.
 
@@ -16,11 +16,13 @@ CourseCritique is a modern course feedback and rating system designed to help ed
 
 ## Tech Stack 💻
 
+- **Frontend**: React (TypeScript), Tailwind CSS, Daisy UI
 - **Backend**: FastAPI (Python)
-- **Frontend**: React (TypeScript)
 - **Database**: Supabase (PostgreSQL)
-- **Authentication**: Supabase
-- **Styling**: Tailwind CSS + Daisy UI
+- **Authentication**: Clerk
+- **Hosting**:
+  - Frontend: Vercel
+  - Backend: Render
 
 ---
 
